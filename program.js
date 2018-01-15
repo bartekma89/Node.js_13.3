@@ -13,7 +13,7 @@ process.stdin.on('readable', function () {
                 process.exit();
                 break;
             default:
-                process.stdout.write('Wrong instruction!\n');
+                process.stderr.write('Wrong instruction!\n');
         }
         
     }
